@@ -4,35 +4,35 @@
 }
 
 html {
-	height: 100%;
+    height: 100%;
 }
 
 body {
-	margin: 0;
-    padding:0;
-	height: 100%;
-	overflow-x: hidden;
-	font-family: 'Champagne-Limousines';
-	font-size: 30px;
-	color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Champagne-Limousines', serif;
+    font-size: 30px;
+    color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	margin: 0;
+    margin: 0;
 }
 
 .background-image {
-	display: flex;
+    display: flex;
     min-height: 100%;
     width: 100%;
-	align-items: center;
+    align-items: center;
     justify-content: center;
-	background: url('../img/background.jpg') no-repeat center;
-	background-size: cover;
+    background: url('../img/background.jpg') no-repeat center;
+    background-size: cover;
 }
 
-@media screen and (max-width: 400px){
-	.background-image {
-		font-size: 1.4rem;
-	}
+@media screen and (max-width: 400px) {
+    .background-image {
+        font-size: 1.4rem;
+    }
 }
